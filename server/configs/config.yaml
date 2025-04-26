@@ -1,0 +1,11 @@
+server:
+  port: "8080"
+
+database:
+  dsn: "file_server.db"
+
+jwt:
+  secret: "your-strong-secret-key"
+
+storage:
+  base_dir: "./storage"  # 用户文件存储基础目录

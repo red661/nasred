@@ -1,0 +1,25 @@
+.headerbar {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: rgb(148, 143, 143);
+    color: #eee;
+    display: none;
+}
+
+.mgheader {
+    margin-top: 0;
+}
+
+@media (max-width: 800px) {
+    .headerbar {
+        display: block;
+    }
+
+    .mgheader {
+        margin-top: 60px;
+    }
+}
